@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+  background-image: url(./Photos/image.jpg);
+  background-size: cover;
+
+}
+h1
+{
+  margin: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: black;
+  margin:6px;
+}
+
+.form-group input {
+  font-weight: 500;
+}
+
+.form-group input::placeholder {
+  color: gray;
+
+}
+
+thead th{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+td
+{
+  margin:8px;
+}
+
+table tr:hover {
+  background-color: lightgreen;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+/*for invalid form controls*/
+input.invalid {
+  border-color: red;
+}
+button
+{
+  margin-top: 16px;
+  width: 100%;
+
+}
+

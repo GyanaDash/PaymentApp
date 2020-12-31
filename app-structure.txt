@@ -1,0 +1,18 @@
+● src
++---● app
+|   +--● payment-details
+|   |  |--payment-details.component.ts|.html
+|   |  |
+|   |  +--● payment-detail-form
+|   |     |--payment-detail-form.component.ts|.html
+|   |
+|   +--● shared
+|   |  |--payment-detail.service.ts
+|   |  |--payment-detail.model.ts
+|   |
+|   |--app.module.ts
+|
+|--index.html (cdn path for bootstrap & fa icons)
+
+We’ve two components, list of records will be shown in payment-details component,
+it has a child component payment-detail-form, inside that, a form for insert and update operation can be designed.
